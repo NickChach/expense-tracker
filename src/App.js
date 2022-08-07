@@ -1,5 +1,7 @@
+import React from "react";
 import "./App.css";
 import ExpensesList from "./components/expenses-list/ExpensesList";
+import NewExpenseForm from "./components/new-expense-form/NewExpenseForm";
 
 function App() {
   const expenses = [
@@ -12,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <NewExpenseForm />
       <ExpensesList item={expenses} />
     </div>
   );

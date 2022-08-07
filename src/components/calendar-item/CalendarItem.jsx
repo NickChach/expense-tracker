@@ -6,9 +6,10 @@ const CalendarItem = (props) => {
   const month = props.date.toLocaleString("en-US", { month: "long" });
   return (
     <div>
-      <p>{month}</p>
-      <p>{year}</p>
-      <p>{day}</p>
+      <p>
+        <p>{year}</p>
+        {day} {month}
+      </p>
     </div>
   );
 };

@@ -1,0 +1,15 @@
+#ExpenseItem {
+  margin: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+}
+
+#ExpenseItem h2 {
+  margin-bottom: 0.5rem;
+}
+
+#ExpenseItem section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

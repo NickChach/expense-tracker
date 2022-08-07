@@ -1,0 +1,11 @@
+#NewExpenseForm {
+  margin: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+}
+
+#NewExpenseForm label,
+#NewExpenseForm input,
+#NewExpenseForm button {
+  display: block;
+}
